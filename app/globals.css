@@ -1,0 +1,136 @@
+@import "tailwindcss";
+
+:root,
+html[data-theme="light"] {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html[data-theme="dark"] {
+  --background: #09090b;
+  --foreground: #f4f4f5;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.budgex-sidebar-logo-dark {
+  display: none;
+}
+
+html[data-font-size="small"] body {
+  font-size: 14px;
+}
+
+html[data-font-size="medium"] body {
+  font-size: 16px;
+}
+
+html[data-font-size="large"] body {
+  font-size: 18px;
+}
+
+html[data-hide-money="true"] .money-value {
+  color: transparent !important;
+  text-shadow: 0 0 10px rgba(24, 24, 27, 0.55);
+  user-select: none;
+}
+
+html[data-theme="dark"] body {
+  background: #020617;
+  color: #f8fafc;
+}
+
+html[data-theme="dark"] .bg-white {
+  background-color: #020817 !important;
+}
+
+html[data-theme="dark"] .bg-zinc-50 {
+  background-color: #01040d !important;
+}
+
+html[data-theme="dark"] .bg-zinc-100 {
+  background-color: rgba(37, 99, 235, 0.12) !important;
+}
+
+html[data-theme="dark"] .bg-zinc-200 {
+  background-color: rgba(37, 99, 235, 0.18) !important;
+}
+
+html[data-theme="dark"] .bg-zinc-900 {
+  background-color: #2563eb !important;
+}
+
+html[data-theme="dark"] .bg-white\/85 {
+  background-color: rgba(2, 8, 23, 0.88) !important;
+  border: 1px solid rgba(59, 130, 246, 0.24);
+}
+
+html[data-theme="dark"] .border-zinc-200,
+html[data-theme="dark"] .border-zinc-300 {
+  border-color: rgba(59, 130, 246, 0.24) !important;
+}
+
+html[data-theme="dark"] .text-zinc-900 {
+  color: #f8fafc !important;
+}
+
+html[data-theme="dark"] .text-zinc-800 {
+  color: #e2e8f0 !important;
+}
+
+html[data-theme="dark"] .text-zinc-700,
+html[data-theme="dark"] .text-zinc-600,
+html[data-theme="dark"] .text-zinc-500 {
+  color: #93c5fd !important;
+}
+
+html[data-theme="dark"] .hover\:bg-zinc-100:hover,
+html[data-theme="dark"] .hover\:bg-zinc-200:hover {
+  background-color: rgba(37, 99, 235, 0.22) !important;
+}
+
+html[data-theme="dark"] .hover\:bg-zinc-800:hover {
+  background-color: #1d4ed8 !important;
+}
+
+html[data-theme="dark"] .shadow-sm,
+html[data-theme="dark"] .shadow-lg,
+html[data-theme="dark"] .shadow-xl {
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45) !important;
+}
+
+html[data-theme="dark"] input,
+html[data-theme="dark"] textarea,
+html[data-theme="dark"] select {
+  background-color: #020817 !important;
+  color: #f8fafc !important;
+  border-color: rgba(59, 130, 246, 0.22) !important;
+}
+
+html[data-theme="dark"] input::placeholder,
+html[data-theme="dark"] textarea::placeholder {
+  color: #60a5fa !important;
+}
+
+html[data-theme="dark"] .budgex-sidebar-logo-light {
+  display: none;
+}
+
+html[data-theme="dark"] .budgex-sidebar-logo-dark {
+  display: block;
+}
+
+html[data-theme="dark"] .app-sidebar-tagline {
+  color: #f8fafc !important;
+}
