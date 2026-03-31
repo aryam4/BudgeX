@@ -1265,7 +1265,7 @@ export function SettingsPage() {
                   Reach out when you need help with your account, setup, or data.
                 </p>
                 <a
-                  href="mailto:support@budgex.app"
+                  href="mailto:budgex.ai@gmail.com"
                   className="mt-4 inline-block rounded-2xl bg-zinc-900 px-4 py-3 text-sm font-medium text-white hover:bg-zinc-800"
                 >
                   Contact Support

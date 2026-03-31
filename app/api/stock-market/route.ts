@@ -257,7 +257,7 @@ export async function GET(request: Request) {
     return NextResponse.json(
       {
         error:
-          "Missing FINNHUB_API_KEY. Add it to .env.local to enable the stock market page.",
+          "Live market data is temporarily unavailable while the production market feed configuration is being completed.",
       },
       { status: 500 }
     );

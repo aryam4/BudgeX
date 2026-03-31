@@ -51,8 +51,10 @@ export function HomeContactForm() {
       ].join("\n")
     );
 
-    window.location.href = `mailto:support@budgex.app?subject=${subject}&body=${body}`;
-    setMessage("Your email app should open now with your message ready to send.");
+    window.location.href = `mailto:budgex.ai@gmail.com?subject=${subject}&body=${body}`;
+    setMessage(
+      "Your email app should open now with your message ready to send to BudgeX support."
+    );
     setForm(initialState);
   }
 

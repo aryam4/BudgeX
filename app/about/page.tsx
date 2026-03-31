@@ -33,7 +33,15 @@ export default function AboutPage() {
             Aryam Dwivedi
           </p>
           <p className="mt-2 text-zinc-500">
-            Founder details and story can be expanded here later.
+            Aryam Dwivedi is the Founder of BudgeX, an AI powered personal
+            finance startup designed to help people take control of their money
+            with more clarity and confidence. By combining budgeting tools, net
+            worth tracking, subscription analysis, and smart financial
+            planning, Aryam is building BudgeX to make financial management
+            simpler, more intuitive, and more useful for modern users. With a
+            background in engineering and a strong interest in technology and
+            business, he is focused on creating practical solutions that turn
+            financial data into better decisions.
           </p>
         </div>
       </div>
